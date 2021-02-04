@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f385a25292fbb4e991747ccb2ece86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemy: {fileID: 1432291421233029522, guid: b834576c5f7307d498cddf5c4b0c4aca, type: 3}
+  _enemy: {fileID: 7679713038983859603, guid: b834576c5f7307d498cddf5c4b0c4aca, type: 3}
   _points: []
 --- !u!1 &963194225
 GameObject:

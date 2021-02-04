@@ -1,15 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemy;
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private Point[] _points;
-    private void Start()
+
+    private void Awake()
     {
         _points = GetComponentsInChildren<Point>();
-        
+    }
+
+    private void Start()
+    {
         StartCoroutine(SpawnEnemy());
     }
 
